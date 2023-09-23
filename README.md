@@ -60,7 +60,7 @@ We then checked for categorical variable store_and_fwd_flag and passenger_count.
 * Linear Regression:
 Linear Regression is a regression of dependent variable on independent variable. It is a linear model that assumes a linear relationship between dependent (y) and independent variables (x).
 
-*Ridge And Lasso Regression:
+* Ridge And Lasso Regression:
 Ridge and Lasso regression are some of the simple techniques to reduce model complexity and prevent over-fitting which may result from simple linear regression.Ridge regression shrinks the coefficients towards zero, while Lasso regression encourages some of them to be exactly zero. These techniques can be implemented easily in Python using scikit-learn, making it accessible to a wide audience.
 
 * XGBoost:
@@ -69,7 +69,7 @@ XGBoost comes under boosting and is known as extra gradient boosting. GBM first 
 * LightGBM:
 Light GBM is based on decision tree algorithm. But it splits the tree leaf wise rather then level wise like other boosting algorithm. So when growing on the same leaf in Light GBM, the leaf-wise algorithm can reduce more loss than the level-wise algorithm and hence results in much better accuracy which can rarely be achieved by any of the existing boosting algorithms.
 
-*Random Forest:
+* Random Forest:
 Random Forest is a popular machine learning algorithm that belongs to the supervised learning technique. It can be used for both Classification and Regression problems in ML. It is based on the concept of ensemble learning, which is a process of combining multiple classifiers to solve a complex problem and to improve the performance of the model.Random Forest is a classifier that contains a number of decision trees on various subsets of the given dataset and takes the average to improve the predictive accuracy of that dataset.
 
 # Conclusion
